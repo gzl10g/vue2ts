@@ -1,0 +1,41 @@
+{
+  "name": "vue2ts",
+  "version": "1.0.0",
+  "description": "Vue2 - Typescript - Class Component - Webpack",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "postcss": "^8.4.23",
+    "postcss-loader": "^7.3.0",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.2",
+    "vue-class-component": "^7.2.6",
+    "vue-loader": "^15.10.1",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.7.14",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "browserslist": [
+    "> 5%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
